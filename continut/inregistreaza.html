@@ -1,0 +1,61 @@
+
+  
+           <h3>Inregistreaza</h3>
+   
+       
+       <fieldset>
+           <form id="informatii_persoana">
+             <legend>Informatii persoana : </legend><br />
+              <label for="nume_utilizator">Nume utilizator : </label>
+              <input type="text" id="nume_utilizator" name="nume_utilizator" value="" ><br />
+              <label for="parola">Parola : </label>
+              <input type="password" id="parola" name="parola" value=""><br />
+              <label for="prenume">Prenume : </label>
+              <input type="text" id="prenume" name="prenume" value=""><br />
+              <label for="nume">Nume : </label>
+              <input type="text" id="nume" name="nume" value=""><br />
+              <label for="email">Email : </label>
+              <input type="email" id="email" name="email" value=""><br />
+              <label for="numar_telefon">Numar telefon : </label>
+              <input type="tel" id="numar_telefon" name="numar_telefon" value=""><br />
+              <label for="culoare">Culoare preferata :</label>
+              <input type="color" id="culoare" name="culoare" value="#ffffff"> <br />
+              <label for="sex">Sex : </label>
+              <select name="sex" id="sex" placeholder="Sex">
+                  <option value="Masculin">Masculin</option>
+                  <option value="Feminin">Feminin</option>
+                  <option value="Altul">Altul</option>
+              </select>
+              <br />
+              <label for="data_nastere">Data nastere : </label>
+              <input type="date" id="data_nastere" name="data_nastere" value=""><br />
+              <label for="adresa_pagina_personala">Adresa pagina personala : </label>
+              <input type="url" id="adresa_pagina_personala" name="adresa_pagina_personala" value=""><br />
+            </form>
+        </fieldset>
+        <br />
+        <fieldset>
+           <form id="informatii_avion">
+             <legend>Informatii care ti s-au parut interesante despre un avion : </legend><br />
+              <label for="categorie_avion">Alegeti categoria de avion : </label>
+                <input type="text" list="categorie" id="categorie_avion" name="categorie_avion" style="width:700px;"/>
+                <datalist id="categorie" >
+                  <option value="Avioane de vânătoare cu reacție subsonice din prima generație (între mijlocul anilor 1940 - mijlocul anilor 1950" >
+                  <option value="Avioane de vânătoare cu reacție din cea de a doua generație (între mijlocul anilor 1950 - începutul anilor 1960">
+                  <option value="Avioane de vânătoare cu reacție din generația a treia (între începutul anilor 1960 - anii 1970">
+                  <option value="Avioane de vânătoare cu reacție din generația a patra (între anii 1970 - mijlocul anilor 1990">
+                  <option value="Avioane de vânătoare cu reacție din cea de a 4,5-a generație (între anii 1990 - până în prezent">
+                  <option value="Avioane de vânătoare cu reacție din generația a cincea (între anii 2005 - până în prezent">
+                </datalist><br />
+                <label for="denumire_avion">Denumire avion : </label>
+              <input type="text" id="denumire_avion" name="denumire_avion" value=""><br />
+              <label for="numar_informatii">Numar informatii:</label>
+              <input type="range" id="numar_informatii" value="10" min="1" max="10" oninput="this.nextElementSibling.value = this.value">  
+              <output>10</output><br />
+              <label for="informatii_interesante">Informatii interesante : </label>
+               <textarea id="informatii_interesante" name="informatii_interesante" value=""></textarea><br />
+            </form>
+        </fieldset>
+        <br />
+        <input type="submit" value="Inregistreaza" disabled>
+       

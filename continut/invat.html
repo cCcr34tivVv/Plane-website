@@ -1,0 +1,84 @@
+
+<div id="flex-container">
+      <div id="aside_div">
+       <aside>
+            <h4><a href="#sectiunea_1">Sectiunea 1</a></h4>
+            <h4><a href="#sectiunea_2">Sectiunea 2</a></h4>
+            <h4><a href="#sectiunea_3">Sectiunea 3</a></h4>
+       </aside>
+       </div>
+       
+      <div id="content_div">
+       
+       <h3>Invat</h3>
+          <section id="sectiunea_1">
+            <h4>Sectiunea 1</h4>
+
+            <p id="data"></p>
+            
+            <p id="url"></p>
+            
+            <p id="location"></p>
+
+            <p id="browser_name"></p>
+        
+            <p id="browser_version"></p>
+    
+            <p id="os_name"></p>
+          </section>   
+        
+          <section id="sectiunea_2">
+            <h4>Sectiunea 2</h4>
+
+            <label for="culoare_contur">Culoare contur :</label>
+              <input type="color" id="culoare_contur" name="culoare_contur" value="#ffffff"> <br />
+      
+            <label for="culoare_umplere">Culoare umplere :</label>
+              <input type="color" id="culoare_umplere" name="culoare_umplere" value="#ffffff"> <br /> <br />  
+    
+            <canvas id="canvas_desen" width="1000px" height="400px"></canvas>
+            
+
+          </section>
+          
+          <section id="sectiunea_3">
+            <h4>Sectiunea 3</h4>
+
+            
+          <form>
+            <label for="numar_linie/coloana">Numar linie/coloana:</label>
+            <input type="number" id="numar_linie/coloana" name="numar_linie/coloana" min=1>
+            <p>Selecteaza ce vrei sa adaugi:</p>
+            <input type="radio" id="linie" name="linie/coloana" value="linie">
+            <label for="linie">Linie</label><br>
+            <input type="radio" id="coloana" name="linie/coloana" value="coloana">
+            <label for="coloana">Coloana</label><br>
+            <br />
+            <label for="culoare_celula">Culoare contur :</label>
+              <input type="color" id="culoare_celula" name="culoare_celula" value="#ffffff"> 
+              <br /><br />
+            <input id="Alege_buton" type="button" value="Adauga">
+          </form>
+
+
+            <table id="tabela_invat">
+              <tr>
+                  <td>Denumire</td>
+                  <td>Masa</td>  
+                  <td>Tip motor</td>    
+              </tr>
+              <tr>
+                  <td>Mikoyan-Gurevich MiG-21</td>
+                  <td>5,200 kg</td>
+                  <td>Turbojet</td>
+              </tr>
+              <tr>
+                  <td>General Dynamics F-16 Fighting Falcon</td>
+                  <td>9,207 kg</td>
+                  <td>Turbofan, General Electric F110</td>
+              </tr>
+          </table>    
+
+          </section>
+      </div>
+    </div>

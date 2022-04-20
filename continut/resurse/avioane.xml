@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE avioane SYSTEM "avioane.dtd">
+<avioane>
+    <avion id="A1">
+        <denumire>Mikoyan-Gurevich MiG-21</denumire>
+        <viteza_maxima>2,229 km/h</viteza_maxima>
+        <masa>5,200 kg</masa>
+        <tip_motor>Turbojet</tip_motor>
+        <producator>Mikoyan</producator>
+        <primul_zbor>16 Iunie 1955</primul_zbor>
+        <specificatii>
+            <lungime>14,7 m</lungime>
+            <anvergura_aripi>7,154 m</anvergura_aripi>
+            <inaltime>4,1 m</inaltime>
+        </specificatii>
+        <capacitate_rezervor>2,600 l</capacitate_rezervor>
+    </avion>
+    
+    <avion id="A2">
+        <denumire>General Dynamics F-16 Fighting Falcon</denumire>
+        <viteza_maxima>2,121 km/h</viteza_maxima>
+        <masa>9,207 kg</masa>
+        <tip_motor>Turbofan, General Electric F110</tip_motor>
+        <producator>Lockheed Martin, General Dynamics</producator>
+        <primul_zbor>2 Februarie 1974</primul_zbor>
+        <specificatii>
+            <lungime>15,06 m</lungime>
+            <anvergura_aripi>9,96 m</anvergura_aripi>
+            <inaltime>4,9 m</inaltime>
+        </specificatii>
+        <capacitate_rezervor>3,200 l</capacitate_rezervor>
+    </avion>
+</avioane>

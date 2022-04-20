@@ -1,0 +1,119 @@
+#meniu{
+    background-color: #0f3959;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 1px black;
+}
+
+.li_meniu{
+    display: inline;
+    margin: 10px;
+    flex: 3;
+}
+
+.li_meniu a{
+    transition: 0.5s;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.li_meniu a:hover{
+    background-color: white;
+    color: #0f3959;
+    padding: 20px 22px;
+    font-weight: bold;
+}
+
+body{
+    margin-top: 70px;
+    
+    background: linear-gradient(-45deg, #569cd1, #4b93c9, #448cc2, #3e87bd);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 80vh;
+    
+    padding: 40px;
+    color: #0f3959;
+    
+    font-size: 20px;
+}
+
+hr{
+    border: 2px dashed white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+tr,td {
+    border-bottom: 1px dashed white;
+}
+
+legend{
+    font-weight: bold;
+}
+
+fieldset{
+    border: 1px dashed white;
+}
+
+#titlu_formular{
+    font-weight: bold;
+}
+
+#flex-container{
+    display: flex;
+}
+
+#aside_div{
+    float:left;
+    width: 100px;
+    padding :20px;
+}
+
+#content_div{
+    float:right;
+    width:1600x;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:#0f3959;
+}
+
+#canvas_desen{
+    width: 1000;
+    height: 400px;
+    border: 1px dashed white;
+}

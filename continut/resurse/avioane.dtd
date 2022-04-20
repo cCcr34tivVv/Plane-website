@@ -1,0 +1,14 @@
+<!ELEMENT avioane (avion*)>
+<!ATTLIST avion id ID #IMPLIED>
+<!ELEMENT avion (denumire,viteza_maxima,masa,tip_motor,producator,primul_zbor,specificatii,capacitate_rezervor)>
+<!ELEMENT denumire (#PCDATA)>
+<!ELEMENT viteza_maxima (#PCDATA)>
+<!ELEMENT masa (#PCDATA)>
+<!ELEMENT tip_motor (#PCDATA)>
+<!ELEMENT producator (#PCDATA)>
+<!ELEMENT primul_zbor (#PCDATA)>
+<!ELEMENT specificatii (lungime,anvergura_aripi,inaltime)>
+<!ELEMENT lungime (#PCDATA)>
+<!ELEMENT anvergura_aripi (#PCDATA)>
+<!ELEMENT inaltime (#PCDATA)>
+<!ELEMENT capacitate_rezervor (#PCDATA)>
